@@ -1,0 +1,28 @@
+2023-12-12 19:44:07,164 [main] INFO  org.example.Main - Starting Main using Java 17.0.9 with PID 2812 (/Users/choijiwoon/Downloads/SW_Project-master9815/build/classes/java/main started by choijiwoon in /Users/choijiwoon/Downloads/SW_Project-master9815)
+2023-12-12 19:44:07,169 [main] INFO  org.example.Main - No active profile set, falling back to 1 default profile: "default"
+2023-12-12 19:44:08,026 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-12 19:44:08,186 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148 ms. Found 8 JPA repository interfaces.
+2023-12-12 19:44:08,941 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-12 19:44:08,955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-12 19:44:08,956 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-12-12 19:44:09,055 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-12 19:44:09,056 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1769 ms
+2023-12-12 19:44:09,261 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-12 19:44:09,591 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@16f0ec18
+2023-12-12 19:44:09,593 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-12 19:44:09,649 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-12 19:44:09,736 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-12-12 19:44:10,003 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-12 19:44:10,212 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.community.dialect.SQLiteDialect
+2023-12-12 19:44:11,521 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-12 19:44:11,532 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-12 19:44:12,338 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-12 19:44:13,005 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-12 19:44:13,020 [main] INFO  org.example.Main - Started Main in 6.672 seconds (process running for 7.532)
+2023-12-12 19:44:15,314 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 19:44:15,315 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-12-12 19:44:15,317 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-12-12 19:44:15,588 [http-nio-8080-exec-2] ERROR org.example.controller.ProductController - testertestsersetsetsersetsteststestestserestsetserer
+2023-12-12 19:50:00,995 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-12 19:50:01,001 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-12 19:50:01,005 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

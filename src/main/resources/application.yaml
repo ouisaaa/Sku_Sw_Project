@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:./src/main/resources/db/SWshop.sqlite3
+    #/home/ec2-user/springBoot/db/SWshop.sqlite3
+    #./src/main/resources/db/SWshop.sqlite3        #local환경
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+logging:
+  level:
+    root: warn
+  pattern:
+    file: "%d [%t] %-5p %c - %m%n"
+  file:
+    name: ./src/main/resources/log/error.log
+    #/home/ec2-user/springBoot/log/error.log
+    #./src/main/resources/log/error.log             #local환경
+#telegram:
+#  api:
+#    url: https://api.telegram.org/bot
+#    botToken: 6821357511:AAErHV5aDPQtUDP4EmvfNCf77T38dB2csf4
+#    chatId: 6923010430
+#kakao:
+#  client:
+#    id: 5e48d4143495f244b67924ab5fae1eb3          # your kakao client id
+#    secret: MK9lK06Q956a3hlmJl00OBbAttAYkDBG      # your kakao client secret
+#  redirect:
+#    url: http://localhost:8080/oauth2/code/kakao  # your kakao redirect uri
+#google:
+#  client-id: 클라이언트ID
+#  client-secret: 클라이언트SECRET
+#  redirect-uri: 리디렉션URI
+#  token-uri: https://oauth2.googleapis.com/token
+#  resource-uri: https://www.googleapis.com/oauth2/v2/userinfo
