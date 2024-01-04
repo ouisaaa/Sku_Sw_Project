@@ -1,5 +1,14 @@
 # Sku_Sw_Project
-# Sku_Sw_Project
+## Developing on AWS
+*AWS의 전반적인 이해와 활용 하여 하나의 서비스를 구현 및 베포*
+
+
+# Sku_Sw_Project_FRONT
+## Skills
+1. HTML, CSS, JavaScript(ES6)
+2. React
+### React 사용 라이브러리
+- 
 # Sku_Sw_Project
 # Sku_Sw_Project
 
