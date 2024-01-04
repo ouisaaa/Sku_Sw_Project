@@ -17,10 +17,10 @@ t3.small
 ec2-3-38-45-235.ap-northeast-2.compute.amazonaws.com
 
 #### Elastic Block Store
--유형: gp3
--크기: 100gb
--IOPS: 3000
--처리량: 125
+- 유형: gp3
+- 크기: 100gb
+- IOPS: 3000
+- 처리량: 125
 
 ### S3
 1. theidrou..
@@ -63,19 +63,19 @@ ec2-3-38-45-235.ap-northeast-2.compute.amazonaws.com
     "MaxAgeSeconds": 3000
 }
 ### Lambda
--언어: Python 3.11
--사용 라이브러리: request 
--작동 방식: 실행시 front, back에게 각각 request 요청, 응답을 못받을 시 텔레그램으로 문자 전송
--CloudWatch를 통해 주기적으로 실행
+- 언어: Python 3.11
+- 사용 라이브러리: request 
+- 작동 방식: 실행시 front, back에게 각각 request 요청, 응답을 못받을 시 텔레그램으로 문자 전송
+- CloudWatch를 통해 주기적으로 실행
 
 ### CloudWatch
--이벤트 주기: 4 hour
+- 이벤트 주기: 4 hour
 
 ### CloudFront
 cdn
 DNS: d1fyi3zkv8dc3.cloudfront.net(23년 12월 31일 부로 서비스 종료)
--가격 분류: 모든 엣지 로케이션에서 사용(최고의 성능)
--지원되는 HTТР 버전: HTTP/2, HTTP/1.1, HTTP/1.0
+- 가격 분류: 모든 엣지 로케이션에서 사용(최고의 성능)
+- 지원되는 HTТР 버전: HTTP/2, HTTP/1.1, HTTP/1.0
 
 ### Router 53
 DNS
