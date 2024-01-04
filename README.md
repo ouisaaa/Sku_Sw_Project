@@ -1,16 +1,9 @@
 # Sku_Sw_Project
 ## Developing on AWS
 *AWS의 전반적인 이해와 활용 하여 하나의 서비스를 구현 및 베포*
+## Architecture
+*Restful API*
 
-
-# Sku_Sw_Project_FRONT
-## Skills
-1. HTML, CSS, JavaScript(ES6)
-2. React
-### React 사용 라이브러리
-- 
-# Sku_Sw_Project
-# Sku_Sw_Project
 
 # Sku_Sw_Project_AWS
 ### EC2 
@@ -86,3 +79,45 @@ DNS: d1fyi3zkv8dc3.cloudfront.net(23년 12월 31일 부로 서비스 종료)
 ### Router 53
 DNS
 DNS Link: 20ths.skuservice.net(23년 12월 31일 부로 서비스 종료)
+
+
+# Sku_Sw_Project_FRONT
+## Skills
+1. HTML, CSS, JavaScript(ES6)
+2. React
+## React 사용 라이브러리
+- aws_sdk
+- bootstrap
+- react-daum-postcode
+- react-dom
+- react-icons
+- react-router-dom
+- reactjs-popup
+
+  
+# Sku_Sw_Project_BACK
+## SKills
+SpringBoot(3.0.2)
+- Gradle
+- JPA
+- Hibernate
+- Lombok
+
+
+# Sku_Sw_Project_DB
+## Skills
+SQLite
+
+## Why?
+서비스 배포시 EC2에 다 같이 집어 넣어 관리하기 쉽게 하기 위해서 MySQL 에서 SQLite 로 변경
+
+
+# Sku_Sw_Project_Telegram
+## How?
+텔레그램 봇을 생성하여서 http 요청을 통해 사용자에게 문자를 전송
+
+## Where?
+1. Heath check -> (일정 시간 요청을 보내 요청을 받지 못하면 서비스의 오류가 발생한것이므로 텔레그램 문자 전송)
+2. 새로운 주문이 들어올때 판매자에게 텔레그램 문자가 올수있게 설정
+3. spring에서 오류가 발생시 log를 남기고 로그 확인 하라고 텔레그램 문자 전송
+
