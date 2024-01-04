@@ -3,6 +3,8 @@
 *AWS의 전반적인 이해와 활용 하여 하나의 서비스를 구현 및 베포*
 ## Architecture
 *Restful API*
+## 프로젝트 기간
+23.10.31 ~ 23.12.17
 ## 참고 자료
 https://github.com/ouisaaa/Sku_Sw_Project/blob/main/Sku_SW_Project%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8ppt.pdf
 
