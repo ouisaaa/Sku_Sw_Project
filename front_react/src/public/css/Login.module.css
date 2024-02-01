@@ -1,0 +1,29 @@
+
+*{
+    text-align: center;
+}
+  /* 컨테이너 스타일 */
+  .container {
+    text-align: center;         /* 내용 가운데 정렬 */
+    background-color: white;  /* 주위 배경색 */
+    height: 50%;
+  }
+  
+  /* .box 스타일 */
+  .box {
+    text-align: center;           /* 내용 가운데 정렬 */
+    background-color: #FFFFFF;  /* .box 배경색 설정 */
+    padding: 20px;                /* .box 내부 여백 추가 (선택 사항) */
+    padding-right: 40px;
+    border: 2px solid #BFBC8A;
+    border-radius: 5px;           /* .box 모서리 둥글게 (선택 사항) */
+    margin: 20px auto;            /* 수직 정렬을 위해 margin 사용 */
+    max-width: 600px;             /* .box 최대 너비 설정 (선택 사항) */
+  }   
+  .background {
+        background-image: url("../background/loginBack.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 1080px;
+        margin-top: 0%;
+    }

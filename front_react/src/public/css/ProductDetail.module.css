@@ -1,0 +1,169 @@
+*{
+    text-align: center;
+}
+button {
+    margin-right: 5rem;
+    border: none;
+    background-color: #FFFFFF;
+}
+.topSection {
+    width: 100%;
+}
+.topBtn {
+    font-size: 5rem;
+    width: 100px;
+    height: 100px;
+    
+}
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topLogo {
+    margin-right: 2rem;
+}
+.searchBar{
+    width: 25rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+.mainLogo {
+    width: 12rem;
+}
+.mainSection {
+    width: 100%;
+}
+.footSection{
+    width: 100%;
+}
+.sideBar {
+    border: 1px solid #000000;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.mainTableOpen{
+    border: 1px solid #000000;
+    width: 74.7%;
+    height: auto;
+    float: right;
+}
+.mainTable{
+    border: 2px solid #000000;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+.mainTableOpen>table,.mainTable>table{
+    border: 1px solid #000000;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+.td{
+    border: 1px solid #000000;
+    width: 25%;
+    height: 25%;
+    overflow: hidden;
+}
+.objectImg{
+    width: 70%;
+}
+.aNotSelect{
+    color: gray;
+}
+.aSelect{
+    color: #000000;
+}
+div.container {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #f1f1f1;    /* 주위 배경색 */
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  } 
+  div.container2 {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #f1f1f1;    /* 주위 배경색 */
+    height: 100%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .box {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #FFFFFF;    /* .box 배경색 설정 */
+    padding: 20px;                  /* .box 내부 여백 추가 (선택 사항) */
+    padding-right: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;             /* .box 모서리 둥글게 (선택 사항) */
+    margin: 20px auto;              /* 수직 정렬을 위해 margin 사용 */
+    width: 800px;
+  }  
+  .boxSide {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #FFFFFF;    /* .box 배경색 설정 */
+    padding: 20px;                  /* .box 내부 여백 추가 (선택 사항) */
+    padding-right: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;             /* .box 모서리 둥글게 (선택 사항) */
+    margin: 20px auto;              /* 수직 정렬을 위해 margin 사용 */
+    height: 300px;
+    width: 500px;
+  }  
+  
+  .topBox{
+    column-count: 2;
+    display: flex;
+  }
+  .topBox>div.left{
+    width: 100%;
+  }
+  .topBox>div.right{
+    width: 100%;
+  }
+  .boxRight {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #FFFFFF;    /* .box 배경색 설정 */
+    padding: 20px;                  /* .box 내부 여백 추가 (선택 사항) */
+    padding-right: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;             /* .box 모서리 둥글게 (선택 사항) */
+    margin: 20px auto;              /* 수직 정렬을 위해 margin 사용 */
+    width: 400px;
+    max-width: 400px;               /* .box 최대 너비 설정 (선택 사항) */
+    float: right;
+  }  
+  table.basket>tbody>tr>td{
+    border: 1px solid #000000;
+    width: 20%;
+    height: 10%;
+    overflow: hidden;
+}
+img.productImg{
+    width: 350px;
+    height: 350px;
+}
+button.deleteBtn{
+    width: 100%;
+    margin: 0;
+    border: 1px solid #000000;
+}
+div.categoryArea{
+    display: flex;
+}
+.list1, .list2{
+ flex:1;   
+}
+li.categoryList{
+    margin-bottom: 10px;
+}

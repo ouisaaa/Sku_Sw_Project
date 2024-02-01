@@ -1,0 +1,91 @@
+*{
+    text-align: center;
+}
+.mainLogo {
+    width: 12rem;
+    float: center;
+}
+.topBtn {
+    font-size: 5rem;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.btn{
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    margin-right: 5rem;
+    background-color: #FFFFFF;
+}
+.container {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #f1f1f1;    /* 주위 배경색 */
+
+    height: 100%;
+  } 
+  .box {
+    text-align: center;             /* 내용 가운데 정렬 */
+    background-color: #FFFFFF;    /* .box 배경색 설정 */
+    padding: 20px;                  /* .box 내부 여백 추가 (선택 사항) */
+    padding-right: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;             /* .box 모서리 둥글게 (선택 사항) */
+    margin: 20px auto;              /* 수직 정렬을 위해 margin 사용 */
+    max-width: 1200px;              /* .box 최대 너비 설정 (선택 사항) */
+    
+  }
+  .sales{
+    column-count: 2;
+  }
+
+div.order>table>tbody>tr>td{
+    border: 1px solid #000000;
+    width: 10%;
+    height: 10%;
+    overflow: hidden;
+}
+table.register>tbody>tr>td{
+  border: 1px solid #000000;
+  width: 10%;
+  height: 10%;
+  overflow: hidden;
+}
+textarea.contextBox{
+  height: 100px;
+  resize: none;
+}
+button.delete{
+  width: 70px;
+  margin: 0%;
+}
+table.categoryShow{
+  width: 100%;
+}
+table.categoryShow>thead>tr>th,table.categoryShow>tbody>tr>td{
+  border:1px solid #000000;
+}
+button.optionBtn{
+  margin: 0%;
+}
+table.tabler{
+  width: 100%;
+}
+table.tabler>thead>tr>th,table.tabler>tbody>tr>td{
+  border:1px solid #000000;
+}
+input.inputWidth{
+  width: 90%;
+}
+select.modifyCategory{
+  width: 100%;
+}
+/* CSS */
+.inputWidth[type='number']::-webkit-inner-spin-button,
+.inputWidth[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputWidth[type='number'] {
+  -moz-appearance: textfield;
+}
