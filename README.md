@@ -2,7 +2,7 @@
 ## Developing on AWS
 *AWS의 전반적인 이해와 활용 하여 하나의 서비스를 구현 및 베포*
 ## Architecture
-*Restful API*
+*Rest API 기반 클라이언트 서버 구조*
 ## 프로젝트 기간
 23.10.31 ~ 23.12.17
 ## 참고 자료
